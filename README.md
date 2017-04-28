@@ -1,9 +1,5 @@
 # eslint-plugin-require
 
-[![License][license-image]][license-url]
-
-[license-url]: https://opensource.org/licenses/MIT
-
 > ESLint rules for require
 
 ## Usage
@@ -45,7 +41,7 @@ Rule                                    | Recommended      | Options
 ----                                    | -----------      | -------
 [conditional-async-require-forbidden]   | 1                |
 
-For example, using the recommended configuration, the `no-focused-tests` rule
+For example, using the recommended configuration, the `conditional-async-require-forbidden` rule
 is enabled and will cause ESLint to throw an error (with an exit code of `1`)
 when triggered.
 
