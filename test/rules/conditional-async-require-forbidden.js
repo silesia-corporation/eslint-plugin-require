@@ -22,11 +22,11 @@ ruleTester.run('conditional-async-require-forbidden', rule, {
     invalid: [
         {
             code: 'var module = "subapps/home/show/controller"; \nrequire([module], function () {\n});',
-            errors: [{ message: 'Conditional asynchronous require is forbidden. Use require(["my-module-path"], callback); instead. docs/require/async.md' }]
+            errors: [{ message: 'Conditional asynchronous require is forbidden. Use require(["my-module-path"], callback); instead. docs/async.md' }]
         },
         {
             code: 'var module = condition ? "subapps/login/show/controller" : "subapps/logout/show/controller";\n require([module], function () {\n});',
-            errors: [{ message: 'Conditional asynchronous require is forbidden. Use require(["my-module-path"], callback); instead. docs/require/async.md' }]
+            errors: [{ message: 'Conditional asynchronous require is forbidden. Use require(["my-module-path"], callback); instead. docs/async.md' }]
         }
     ]
 });
