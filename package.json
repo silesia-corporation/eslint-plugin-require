@@ -1,0 +1,21 @@
+{
+  "name": "eslint-plugin-require",
+  "description": "ESLint rules for require",
+  "version": "0.1.0",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "eslint-ava-rule-tester": "^2.0.2",
+    "nyc": "^10.2.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "ava \"test/**/*.js\"",
+    "coverage": "nyc ava"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin",
+    "require"
+  ]
+}
