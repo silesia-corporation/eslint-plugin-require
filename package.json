@@ -10,7 +10,7 @@
   "main": "index.js",
   "scripts": {
     "test": "ava \"test/**/*.js\"",
-    "coverage": "nyc ava"
+    "coverage": "nyc npm test"
   },
   "keywords": [
     "eslint",
