@@ -6,22 +6,28 @@ Recommendation
 
 It is recommended to use require with string literals, e.g.
 
+```javascript
 // Good
 require(["subapps/home/show/controller"], function () {
     
 });
+```
 
+```javascript
 // Bad
 var module = "subapps/home/show/controller";
 require([module], function () {
     
 });
+```
 
+```javascript
 // Bad
 var module = condition ? "subapps/login/show/controller" : "subapps/logout/show/controller";
 require([module], function () {
     
 });
+```
 
 Reason
 ------

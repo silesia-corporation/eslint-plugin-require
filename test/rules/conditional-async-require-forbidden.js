@@ -1,5 +1,3 @@
-'use strict';
-
 import test from 'ava';
 import rule from '../../lib/rules/conditional-async-require-forbidden';
 import AvaRuleTester from 'eslint-ava-rule-tester';
