@@ -1,6 +1,6 @@
 {
-  "name": "eslint-plugin-require",
-  "description": "ESLint rules for require",
+  "name": "eslint-plugin-requirejs",
+  "description": "ESLint rules for requirejs",
   "version": "0.1.0",
   "devDependencies": {
     "ava": "^0.19.1",
@@ -16,6 +16,6 @@
     "eslint",
     "eslint-plugin",
     "eslintplugin",
-    "require"
+    "requirejs"
   ]
 }

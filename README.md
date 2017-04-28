@@ -4,17 +4,17 @@
 
 ## Usage
 
-1. Install `eslint-plugin-require` as a dev-dependency:
+1. Install `eslint-plugin-requirejs` as a dev-dependency:
 
     ```shell
-    npm install --save-dev eslint-plugin-require
+    npm install --save-dev eslint-plugin-requirejs
     ```
 
 2. Enable the plugin by adding it to your `.eslintrc`:
 
     ```yaml
     plugins:
-      - require
+      - requirejs
     ```
 
 ## Configuration
@@ -26,8 +26,8 @@ config file:
 
 ```yaml
 plugins:
-  - require
-extends: 'plugin:require/recommended'
+  - requirejs
+extends: 'plugin:requirejs/recommended'
 ```
 
 See the [ESLint config docs][] for more information about extending
@@ -50,9 +50,9 @@ property:
 
 ```yaml
 plugins:
-  - require
+  - requirejs
 rules:
-  require/conditional-async-require-forbidden: 0
+  requirejs/conditional-async-require-forbidden: 0
 ```
 
 See [configuring rules][] for more information.
@@ -63,4 +63,4 @@ See [configuring rules][] for more information.
 
 © 2017 Silesia Corporation and [contributors][].
 
-[contributors]: https://github.com/silesia-corporation/eslint-plugin-require/graphs/contributors
+[contributors]: https://github.com/silesia-corporation/eslint-plugin-requirejs/graphs/contributors

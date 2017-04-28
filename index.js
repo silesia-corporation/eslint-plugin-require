@@ -7,7 +7,7 @@ module.exports = {
     configs: {
         recommended: {
             rules: {
-                'marionette/conditional-async-require-forbidden': 1
+                'requirejs/conditional-async-require-forbidden': 1
             }
         }
     }
