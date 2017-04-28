@@ -1,6 +1,6 @@
-# eslint-plugin-require
+# eslint-plugin-requirejs
 
-> ESLint rules for require
+> ESLint rules for requirejs
 
 ## Usage
 
