@@ -39,7 +39,7 @@ configuration files.
 
 Rule                                    | Recommended      | Options
 ----                                    | -----------      | -------
-[conditional-async-require-forbidden]   | 1                |
+[conditional-async-require-forbidden][]   | 1                |
 
 For example, using the recommended configuration, the `conditional-async-require-forbidden` rule
 is enabled and will cause ESLint to throw an error (with an exit code of `1`)
