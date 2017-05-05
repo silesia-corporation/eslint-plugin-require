@@ -7,7 +7,7 @@
 1. Install `eslint-plugin-requirejs` as a dev-dependency:
 
     ```shell
-    npm install --save-dev eslint-plugin-requirejs
+    npm install --save-dev @silesia-corporation/eslint-plugin-requirejs
     ```
 
 2. Enable the plugin by adding it to your `.eslintrc`:

@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-requirejs",
+  "name": "@silesia-corporation/eslint-plugin-requirejs",
   "description": "ESLint rules for requirejs",
   "version": "0.1.0",
   "devDependencies": {
