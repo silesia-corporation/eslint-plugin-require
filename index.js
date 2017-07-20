@@ -7,7 +7,7 @@ module.exports = {
     configs: {
         recommended: {
             rules: {
-                'requirejs/conditional-async-require-forbidden': 1
+                '@silesia-corporation/requirejs/conditional-async-require-forbidden': 1
             }
         }
     }
