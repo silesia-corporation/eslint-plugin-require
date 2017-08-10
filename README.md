@@ -40,6 +40,10 @@ configuration files.
 Rule                                  | Recommended      | Options
 ----                                  | -----------      | -------
 conditional-async-require-forbidden   | 1                |
+deprecate-define                      | 2                |
+deprecate-sugar                       | 2                |
+deprecate-strict                      | 2                |
+deprecate-globals                     | 2                |
 
 For example, using the recommended configuration, the `conditional-async-require-forbidden` rule
 is enabled and will cause ESLint to throw an error (with an exit code of `1`)
