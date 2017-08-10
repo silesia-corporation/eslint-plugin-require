@@ -1,9 +1,10 @@
 {
   "name": "@silesia-corporation/eslint-plugin-requirejs",
   "description": "ESLint rules for requirejs",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "devDependencies": {
     "ava": "0.19.1",
+    "eslint": "4.2.0",
     "eslint-ava-rule-tester": "2.0.2",
     "nyc": "10.2.0"
   },
@@ -17,5 +18,8 @@
     "eslint-plugin",
     "eslintplugin",
     "requirejs"
-  ]
+  ],
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
 }
